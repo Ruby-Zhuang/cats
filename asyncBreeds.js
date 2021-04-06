@@ -12,8 +12,8 @@ const breedDetailsFromFile = function(breed, functionToRunWhenThingsAreDone) {
 };
 
 // CHANGE 1: Moved the console.log into a new function:
-const printOutCatBreed = breed => {
-  console.log('Return Value: ', breed); // => print out details correctly.
-};
+// const printOutCatBreed = breed => {
+//   console.log('Return Value: ', breed); // => print out details correctly.
+// };
 
 module.exports = breedDetailsFromFile;
